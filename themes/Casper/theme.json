@@ -6,7 +6,8 @@
     "author": "author.hbs",
     "post": "post.hbs",
     "page": "page.hbs",
-    "tag": "tag.hbs"
+    "tag": "tag.hbs",
+    "link": "partials/link.hbs"
   },
-  "version":"1.0.0"
+  "version":"2.0.0"
 }
