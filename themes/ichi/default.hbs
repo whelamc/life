@@ -99,6 +99,14 @@
                 {{#if socialnetwork.facebook}}
                   <a href="{{socialnetwork.facebook}}" class="fi-social-facebook"></a>
                 {{/if}}
+                {{#if socialnetwork.linkedin}}
+                <!-- LinkedIn -->
+                  <a href="{{socialnetwork.linkedin}}" class="fi-social-linkedin" title="LinkedIn account"></a>
+                {{/if}}
+                {{#if socialnetwork.email}}
+                <!-- Email -->
+                  <a href="mailto:{{socialnetwork.email}}" class="fi-social-email" title="Email {{socialnetwork.email}}"></a>
+                {{/if}}
             </div>
         </div>
     </div>
